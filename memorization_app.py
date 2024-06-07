@@ -5,7 +5,7 @@ import random
 # Load the CSV file
 @st.cache_data
 def load_data():
-    return pd.read_excel('rumi-jawi.xlsx')
+    return pd.read_excel('rumi-jawi2.xlsx')
 
 data = load_data()
 
